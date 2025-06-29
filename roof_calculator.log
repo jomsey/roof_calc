@@ -1,0 +1,8 @@
+2025-06-29 07:48:24,879 - INFO - Logging is set up.
+2025-06-29 07:48:24,960 - INFO - GableRoof initialized: GableRoof(length=300.0cm, width=360.0cm)
+2025-06-29 07:48:24,961 - INFO - GableRoof: height=1.20cm, overhang=60cm
+2025-06-29 07:48:24,962 - INFO - Calculation successful for roof: GABLE
+2025-06-29 12:10:01,596 - INFO - Logging is set up.
+2025-06-29 12:10:01,691 - INFO - HipRoof initialized: HipRoof(length=300.0cm, width=360.0cm)
+2025-06-29 12:10:01,692 - INFO - HipRoof: height=1.20cm, overhang=60cm
+2025-06-29 12:10:01,693 - INFO - Calculation successful for roof: HIP
