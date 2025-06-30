@@ -15,8 +15,8 @@ def validate_positive(value: float, name: str) -> None:
             raise InvalidDimensionsError(f"{name} must be a positive number.")
 
 def validate_pitch_degrees(pitch_deg: float):
-    if not (5 <= pitch_deg <= 60):
-        raise InvalidDimensionsError(f"Roof pitch ({pitch_deg}°) must be between 5° and 60°.")
+    if not (10 <= pitch_deg <= 60):
+        raise InvalidDimensionsError(f"Roof pitch ({pitch_deg}°) must be between 10° and 60°.")
         
 def validate_unit(unit: Unit):
     if not isinstance(unit, Unit):

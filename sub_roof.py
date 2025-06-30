@@ -2,7 +2,7 @@ import math
 import logging
 from dataclasses import dataclass, field
 from typing import List, Optional
-from validators import validate_positive
+from validators import validate_positive,validate_pitch_degrees
 from miscellenous import Unit
 from mixin import HipRoofMixin
 from pprint import pprint as print
@@ -18,11 +18,10 @@ class SubRoof:
     sub_roofs_attached: List["SubRoof"] = field(default_factory=list)
 
     def __post_init__(self):
-        self.roof_half_span = self.section_length * .5
         validate_positive(self.section_length, "section_length")
         validate_positive(self.width, "width")
-        if not (0 < self.roof_pitch_deg < 90):
-            raise ValueError("Roof pitch must be between 0 and 90 degrees.")
+        self.roof_half_span = self.section_length * .5
+        validate_pitch_degrees(self.roof_pitch_deg)
 
     @property
     def pitch_rise_run(self) -> float:
@@ -32,16 +31,18 @@ class SubRoof:
     @property
     def slope_height(self) -> float:
         """Return the slant height of the roof section using pitch."""
-        rise = self.pitch_rise_run * (self.width / 2)
+        rise = self.pitch_rise_run * self.roof_half_span
         hypotenuse = math.hypot(rise, self.width / 2)
         return hypotenuse
         
     @property     
     def roof_height(self):
         return 200
+        
     @property     
     def roof_overhang(self):
         return 60
+        
     def roof_area(self) -> float:
         """Calculate the total sloped area of this sub-roof and its children."""
         main_area = 2 * self.slope_height * self.section_length
@@ -62,7 +63,8 @@ class SubRoof:
         }
 
     def __str__(self) -> str:
-        return f"{self.name}: {self.section_length}x{self.width} pitch={self.roof_pitch_deg}°"
+        return f"{self.name}: {self.section_length}x{self.width} pitch= {self.roof_pitch_deg}°"
+     
         
 class HipSubRoof(SubRoof,HipRoofMixin):
     def to_dict(self) -> dict:
@@ -83,19 +85,6 @@ class HipSubRoof(SubRoof,HipRoofMixin):
 class GableSubRoof(SubRoof):
     pass       
 
-
-
-# Nested subroof
-#main = HipSubRoof(
-    #name="Main Extension",
-    #section_length=600,
-    #width=300,
-    #roof_pitch_deg=35,
-    #sub_roofs_attached=[
-    #    GableSubRoof("Left Bay", 300, 200, 25),
-    #    HipSubRoof("Right Bay", 300, 200, 25),
-    #]
-#)
 
 
 
