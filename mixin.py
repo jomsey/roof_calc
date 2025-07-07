@@ -1,4 +1,8 @@
 import math
+from dataclasses import dataclass, field
+from typing import List, Tuple
+#from roof import Roof,HipRoof,GableRoof,FlatRoof
+#from sub_roof import SubRoof,HipSubRoof,GableSubRoof
 
 class HipRoofMixin:
     def _get_attr(self, attr_name: str):
@@ -21,10 +25,11 @@ class HipRoofMixin:
         tiebeam = self.corner_tiebeam_length
         height = self._get_attr('roof_height')
         overhang = self._get_attr('roof_overhang')
-        return math.hypot(tiebeam, height) + overhang
+        return math.hypot(tiebeam, height) + self.hip_rafter_overhang
 
     @property
     def triangular_facial_area(self) -> float:
+        #soon rename slanting_triangular_face_area
         base = self.facial_base_length
         height = self._get_attr('roof_height')
         return base * height
@@ -34,3 +39,5 @@ class HipRoofMixin:
         half_span = self._get_attr('roof_half_span')
         overhang = self._get_attr('roof_overhang')
         return 2 * (half_span + overhang)
+
+

@@ -4,8 +4,11 @@ import sys
 import json
 
 from logger import setup_logging
-from roof import RoofFactory, RoofType, Unit, SheetSize
+from roof import RoofFactory
+from miscellenous import RoofType,SheetSize,Unit,SheetOverup
+from components import SheetCover
 from roof import convert_area, area_unit_str
+from validators import validate_positive
 from defaults import (
     OVERHANG,
     SHEET_WIDTH,
@@ -22,8 +25,8 @@ def main():
     setup_logging()
 
     parser = argparse.ArgumentParser(
-        description="""Roof Material Calculator - Estimate construction materials for various roof types.
-Supported roof types:
+            description="""Roof Material Calculator - Estimate construction materials for various roof types.
+            Supported roof types:
 - HIP: Four sloping sides meeting at ridge
 - GABLE: Two sloping sides with triangular gable ends
 - FLAT: Single slope roof (typically 1-5° slope)""",
@@ -37,10 +40,12 @@ Supported roof types:
     parser.add_argument("roof_type", choices=[rt.name for rt in RoofType], help="Type of roof (HIP, GABLE, FLAT)")
     parser.add_argument("length", type=float, help="Building length (in specified unit)")
     parser.add_argument("width", type=float, help="Building width (in specified unit)")
-
+    parser.add_argument("--pitch",type=float,help='Roof pitch')
     parser.add_argument("--unit", choices=[u.value for u in Unit], default="cm", help="Measurement unit")
     parser.add_argument("--sheet_length", type=float, default=SHEET_LENGTH, help="Sheet length (cm)")
     parser.add_argument("--sheet_width", type=float, default=SHEET_WIDTH, help="Sheet width (cm)")
+    parser.add_argument("--sheet_overup_left_right", type=float, default=5, help="Sheet Overup on the right and left sides (cm)")
+    parser.add_argument("--sheet_overup_bottom_top", type=float, default=20, help="Sheet Overup on the top and bottom sides (cm)")
     parser.add_argument("--purlin_spacing", type=float, default=PURLIN_SPACING, help="Spacing between purlins (cm)")
     parser.add_argument("--truss_spacing", type=float, default=60, help="Spacing between trusses (cm)")
     parser.add_argument("--waste_percent", type=float, default=WASTE_PERCENTAGE, help="Fractional waste (e.g., 0.1 for 10%)")
@@ -56,7 +61,7 @@ Supported roof types:
     # Validate positive dimensions
     for name in [
         "length", "width", "sheet_length", "sheet_width", "purlin_spacing",
-        "truss_spacing", "roof_overhang", "height_ratio", "side_extension_length"
+        "truss_spacing", "roof_overhang", "height_ratio", "side_extension_length","sheet_overup_left_right","sheet_overup_bottom_top","waste_percent"
     ]:
         value = getattr(args, name)
         if value <= 0:
@@ -78,10 +83,13 @@ Supported roof types:
         "roof_overhang": args.roof_overhang,
         "height_ratio": args.height_ratio,
         "side_extension_length": args.side_extension_length,
-        "flat_roof_rise": args.flat_roof_rise
-    }
+        "flat_roof_rise": args.flat_roof_rise,
+        "roof_pitch_deg":args.pitch
+        
+    } 
 
-    sheet_size = SheetSize(args.sheet_length, args.sheet_width)
+    
+
 
     try:
         roof = RoofFactory.create_roof(
@@ -91,8 +99,7 @@ Supported roof types:
             unit=unit,
             **extra_args
         )
-        #result = roof.calculate_materials(sheet_size=sheet_size,purlin_spacing=args.purlin_spacing,truss_spacing=args.truss_spacing,waste_percent=args.waste_percent )
-
+        print('sheets',roof.sheet_covers_count(sheet_cover),args.waste_percent)
         logging.info(f"Calculation successful for roof: {args.roof_type}")
 
     except Exception as e:
@@ -101,15 +108,11 @@ Supported roof types:
         sys.exit(1)
 
     if args.json:
-        print(json.dumps(result, indent=2))
+        print(json.dumps(roof.to_dict(), indent=2))
     else:
         print(f"\n--- Roof Calculation Summary ({roof_type.name}) ---")
-        #for key, value in result.items():
-            #if "area" in key.lower():
-                #converted = convert_area(value, unit)
-                #print(f"{key}: {converted:.2f} {area_unit_str(unit)}")
-            #else:
-                #print(f"{key}: {value}")
+        for key, value in roof.to_dict().items():
+            print(f"{key}: {value}")
 
 if __name__ == "__main__":
     main()

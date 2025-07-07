@@ -1,6 +1,23 @@
+import math
 from enum import Enum , auto
 from dataclasses import dataclass
 
+
+# --------------------------
+# Enums 
+# --------------------------
+class RoofType(Enum):
+    """Types of roof supported.
+    Values:
+        HIP: Hip roof (four sloping sides)
+        GABLE: Gable roof (two sloping sides with gable ends)
+        FLAT: Flat roof (single slope for drainage)
+    """
+    HIP = auto()
+    GABLE = auto()
+    FLAT = auto()
+ 
+    
 class Unit(Enum):
     """Measurement units for all calculations.
     
@@ -13,7 +30,7 @@ class Unit(Enum):
     M = "m"
     FT = "ft"
 
-
+    
 # --------------------------
 # Data Classes
 # --------------------------
@@ -30,45 +47,27 @@ class SheetSize:
     """
     length: float
     width: float
-
-    def area(self) -> float:
-        """Calculate the area of the sheet.
-        
-        Returns:
-            float: Area in cm² (length × width)
-        """
-        return self.length * self.width
-
-# --------------------------
-# Output Conversion Helpers
-# --------------------------
-def convert_area(area_cm2: float, unit: "Unit") -> float:
-    """Convert area from cm² to the specified unit.
     
-    Args:
-        area_cm2: Area in square centimeters
-        unit: Target unit for conversion
-        
-    Returns:
-        float: Area in the requested unit
-    """
-    if unit == Unit.M:
-        return area_cm2 / CM_TO_M_SQUARED
-    elif unit == Unit.FT:
-        return area_cm2 / CM_TO_FT_SQUARED
-    return area_cm2
 
-def area_unit_str(unit: "Unit") -> str:
-    """Get the string representation of an area unit.
-    
-    Args:
-        unit: The unit to convert
         
-    Returns:
-        str: Unit string with squared symbol (cm², m², ft²)
-    """
-    if unit == Unit.M:
-        return "m²"
-    elif unit == Unit.FT:
-        return "ft²"
-    return "cm²"
+@dataclass
+class SheetOverup:
+    left_right_overup: float
+    top_bottom_overup: float
+
+
+@dataclass(frozen=True)
+class PitchRatio:
+    rise: float
+    run: float = 12.0  # Default run is 12, common in roof construction
+
+    @property
+    def degrees(self) -> float:
+        """Convert pitch ratio to pitch in degrees."""
+        return math.degrees(math.atan(self.rise / self.run))
+
+    def __str__(self):
+        return f"{self.rise}:{self.run}"
+
+    def to_tuple(self):
+        return (self.rise, self.run)

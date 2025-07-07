@@ -6,3 +6,270 @@
 2025-06-29 12:10:01,691 - INFO - HipRoof initialized: HipRoof(length=300.0cm, width=360.0cm)
 2025-06-29 12:10:01,692 - INFO - HipRoof: height=1.20cm, overhang=60cm
 2025-06-29 12:10:01,693 - INFO - Calculation successful for roof: HIP
+2025-07-04 20:13:16,620 - INFO - Logging is set up.
+2025-07-04 20:13:16,672 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 20:13:16,673 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 20:13:16,674 - INFO - Calculation successful for roof: FLAT
+2025-07-04 20:13:16,675 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 20:13:16,675 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 21:56:07,292 - INFO - Logging is set up.
+2025-07-04 21:57:17,310 - INFO - Logging is set up.
+2025-07-04 21:57:55,126 - INFO - Logging is set up.
+2025-07-04 21:57:55,189 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 21:57:55,190 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 21:57:55,190 - INFO - Calculation successful for roof: FLAT
+2025-07-04 21:57:55,191 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 21:57:55,192 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:00:21,183 - INFO - Logging is set up.
+2025-07-04 22:00:21,243 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:00:21,244 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:00:21,245 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:00:21,246 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:00:21,246 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:02:52,491 - INFO - Logging is set up.
+2025-07-04 22:02:52,594 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:02:52,595 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:02:52,596 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:02:52,596 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:02:52,597 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:07:03,580 - INFO - Logging is set up.
+2025-07-04 22:07:03,699 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:07:03,700 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:07:03,701 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:07:03,702 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:07:03,702 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:07:30,306 - INFO - Logging is set up.
+2025-07-04 22:07:30,367 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:07:30,368 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:07:30,369 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:07:30,369 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:07:30,370 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:07:49,981 - INFO - Logging is set up.
+2025-07-04 22:07:50,044 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:07:50,044 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:07:50,045 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:07:50,046 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:07:50,046 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:09:24,901 - INFO - Logging is set up.
+2025-07-04 22:09:24,963 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:09:24,964 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:09:24,965 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:09:24,965 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:09:24,966 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:13:30,531 - INFO - Logging is set up.
+2025-07-04 22:13:30,593 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:13:30,594 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:13:30,594 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:13:30,595 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:13:30,596 - INFO - Iron sheet count with 10% waste: 81
+2025-07-04 22:13:30,596 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:13:30,597 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:13:30,597 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:13:42,786 - INFO - Logging is set up.
+2025-07-04 22:13:42,845 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:13:42,846 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:13:42,846 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:13:42,847 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:13:42,848 - INFO - Iron sheet count with 10% waste: 81
+2025-07-04 22:13:42,848 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:13:42,849 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:13:42,849 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:14:48,426 - INFO - Logging is set up.
+2025-07-04 22:14:48,486 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:14:48,487 - INFO - FlatRoof: raise=80.0cm, overhang=60cm
+2025-07-04 22:14:48,487 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:14:48,488 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:14:48,489 - INFO - Iron sheet count with 10% waste: 81
+2025-07-04 22:14:48,489 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:14:48,490 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:14:48,490 - INFO - FlatRoof total area: 1483558.07 cm²
+2025-07-04 22:16:01,230 - INFO - Logging is set up.
+2025-07-04 22:16:01,289 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:16:01,290 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:16:01,290 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:16:01,291 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:16:01,291 - INFO - Iron sheet count with 10% waste: 81
+2025-07-04 22:16:01,292 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:16:01,293 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:16:01,293 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:20:03,562 - INFO - Logging is set up.
+2025-07-04 22:20:03,622 - INFO - FlatRoof initialized: FlatRoof(length=300.0cm, width=330.0cm)
+2025-07-04 22:20:03,623 - INFO - FlatRoof: raise=50.0cm, overhang=60cm
+2025-07-04 22:20:03,624 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:20:03,624 - INFO - FlatRoof total area: 118129.92 cm²
+2025-07-04 22:20:03,625 - INFO - Iron sheet count with 10% waste: 7
+2025-07-04 22:20:03,625 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:20:03,626 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:20:03,627 - INFO - FlatRoof total area: 118129.92 cm²
+2025-07-04 22:22:29,428 - INFO - Logging is set up.
+2025-07-04 22:22:29,489 - INFO - FlatRoof initialized: FlatRoof(length=300.0cm, width=330.0cm)
+2025-07-04 22:22:29,490 - INFO - FlatRoof: raise=50.0cm, overhang=60cm
+2025-07-04 22:22:29,490 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:22:29,491 - INFO - FlatRoof total area: 118129.92 cm²
+2025-07-04 22:22:29,492 - INFO - Iron sheet count with 10% waste: 6
+2025-07-04 22:22:29,492 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:22:29,493 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:22:29,493 - INFO - FlatRoof total area: 118129.92 cm²
+2025-07-04 22:22:55,430 - INFO - Logging is set up.
+2025-07-04 22:22:55,489 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:22:55,490 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:22:55,490 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:22:55,491 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:22:55,492 - INFO - Iron sheet count with 10% waste: 68
+2025-07-04 22:22:55,492 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:22:55,493 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:22:55,493 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:24:05,923 - INFO - Logging is set up.
+2025-07-04 22:24:05,982 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:24:05,983 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:24:05,984 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:24:05,985 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:24:05,985 - INFO - Iron sheet count with 10% waste: 68
+2025-07-04 22:24:05,986 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:24:05,986 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:24:05,987 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:24:26,266 - INFO - Logging is set up.
+2025-07-04 22:24:26,324 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:24:26,325 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:24:26,326 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:24:26,326 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:24:26,327 - INFO - Iron sheet count with 10% waste: 68
+2025-07-04 22:24:26,327 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:24:26,328 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:24:26,329 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:25:01,615 - INFO - Logging is set up.
+2025-07-04 22:25:01,676 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:25:01,677 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:25:01,678 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:25:01,678 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:25:01,679 - INFO - Iron sheet count with 10% waste: 64
+2025-07-04 22:25:01,680 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:25:01,680 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:25:01,681 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:26:01,086 - INFO - Logging is set up.
+2025-07-04 22:26:01,148 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:26:01,149 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:26:01,150 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:26:01,150 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:26:01,151 - INFO - Iron sheet count with 10% waste: 64
+2025-07-04 22:26:01,152 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:26:01,153 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:26:01,153 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:28:16,310 - INFO - Logging is set up.
+2025-07-04 22:28:16,368 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:28:16,369 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:28:16,370 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:28:16,370 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:28:16,371 - INFO - Iron sheet count with 10% waste: 64
+2025-07-04 22:28:16,372 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:28:16,372 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:28:16,373 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:28:53,378 - INFO - Logging is set up.
+2025-07-04 22:28:53,439 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:28:53,440 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:28:53,440 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:28:53,441 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:28:53,441 - INFO - Iron sheet count with 10% waste: 85
+2025-07-04 22:28:53,442 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:28:53,442 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:28:53,443 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:30:45,090 - INFO - Logging is set up.
+2025-07-04 22:30:45,154 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:30:45,155 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:30:45,156 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:30:45,157 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:30:45,157 - INFO - Iron sheet count with 10% waste: 85
+2025-07-04 22:30:45,158 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:30:45,159 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:30:45,159 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:33:52,192 - INFO - Logging is set up.
+2025-07-04 22:33:52,252 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:33:52,253 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:33:52,253 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:33:52,254 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:33:52,255 - INFO - Iron sheet count with 10% waste: 85
+2025-07-04 22:33:52,255 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:33:52,256 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:33:52,256 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:35:02,522 - INFO - Logging is set up.
+2025-07-04 22:35:02,580 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:35:02,581 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:35:02,581 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:35:02,582 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:35:02,582 - INFO - Iron sheet count with 10% waste: 85
+2025-07-04 22:35:02,583 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:35:02,584 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:35:02,584 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:37:20,437 - INFO - Logging is set up.
+2025-07-04 22:37:20,498 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:37:20,499 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:37:20,500 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:37:20,501 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:37:20,501 - INFO - Iron sheet count with 10% waste: 73
+2025-07-04 22:37:20,502 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:37:20,503 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:37:20,503 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:39:07,398 - INFO - Logging is set up.
+2025-07-04 22:40:21,702 - INFO - Logging is set up.
+2025-07-04 22:41:56,106 - INFO - Logging is set up.
+2025-07-04 22:43:45,848 - INFO - Logging is set up.
+2025-07-04 22:44:35,254 - INFO - Logging is set up.
+2025-07-04 22:44:42,992 - INFO - Logging is set up.
+2025-07-04 22:46:23,224 - INFO - Logging is set up.
+2025-07-04 22:46:54,939 - INFO - Logging is set up.
+2025-07-04 22:47:36,252 - INFO - Logging is set up.
+2025-07-04 22:48:25,643 - INFO - Logging is set up.
+2025-07-04 22:48:25,704 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:48:25,705 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:48:25,706 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:48:25,707 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:48:25,707 - INFO - Iron sheet count with 10% waste: 73
+2025-07-04 22:48:25,708 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:48:25,708 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:48:25,709 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:49:46,857 - INFO - Logging is set up.
+2025-07-04 22:49:46,918 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:49:46,919 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:49:46,920 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:49:46,921 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:49:46,921 - INFO - Iron sheet count with 10% waste: 73
+2025-07-04 22:49:46,922 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:49:46,923 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:49:46,923 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:49:57,827 - INFO - Logging is set up.
+2025-07-04 22:51:10,414 - INFO - Logging is set up.
+2025-07-04 22:51:10,472 - INFO - FlatRoof initialized: FlatRoof(length=1800.0cm, width=760.0cm)
+2025-07-04 22:51:10,473 - INFO - FlatRoof: raise=60.0cm, overhang=60cm
+2025-07-04 22:51:10,473 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:51:10,474 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:51:10,474 - INFO - Iron sheet count with 10% waste: 73
+2025-07-04 22:51:10,475 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:51:10,476 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:51:10,477 - INFO - FlatRoof total area: 1480256.54 cm²
+2025-07-04 22:52:08,218 - INFO - Logging is set up.
+2025-07-04 22:52:08,278 - INFO - FlatRoof initialized: FlatRoof(length=300.0cm, width=360.0cm)
+2025-07-04 22:52:08,279 - INFO - FlatRoof: raise=50.0cm, overhang=60cm
+2025-07-04 22:52:08,280 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:52:08,281 - INFO - FlatRoof total area: 127036.69 cm²
+2025-07-04 22:52:08,281 - INFO - Iron sheet count with 10% waste: 7
+2025-07-04 22:52:08,282 - INFO - Calculation successful for roof: FLAT
+2025-07-04 22:52:08,282 - INFO - Calculating roof area for FlatRoof...
+2025-07-04 22:52:08,283 - INFO - FlatRoof total area: 127036.69 cm²
+2025-07-05 17:34:35,649 - INFO - Logging is set up.
+2025-07-05 17:34:35,752 - INFO - FlatRoof initialized: FlatRoof(length=300.0cm, width=360.0cm)
+2025-07-05 17:34:35,753 - INFO - FlatRoof: raise=50.0cm, overhang=60cm
+2025-07-05 17:34:35,753 - ERROR - Calculation error
+Traceback (most recent call last):
+  File "/storage/emulated/0/roof_calc/cli.py", line 102, in main
+    print('sheets',roof.sheet_covers_count(sheet_cover),args.waste_percent)
+                                           ^^^^^^^^^^^
+NameError: name 'sheet_cover' is not defined. Did you mean: 'SheetCover'?
+2025-07-05 17:35:05,232 - INFO - Logging is set up.
+2025-07-05 17:35:05,291 - INFO - FlatRoof initialized: FlatRoof(length=300.0cm, width=360.0cm)
+2025-07-05 17:35:05,292 - INFO - FlatRoof: raise=50.0cm, overhang=60cm
+2025-07-05 17:35:05,293 - ERROR - Calculation error
+Traceback (most recent call last):
+  File "/storage/emulated/0/roof_calc/cli.py", line 102, in main
+    print('sheets',roof.sheet_covers_count(sheet_cover),args.waste_percent)
+                                           ^^^^^^^^^^^
+NameError: name 'sheet_cover' is not defined. Did you mean: 'SheetCover'?

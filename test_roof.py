@@ -1,5 +1,6 @@
 import unittest
 import math
+
 from roof import Roof, HipRoof, GableRoof, FlatRoof, RoofFactory, RoofType, Unit, SheetSize
 from exceptions import InvalidDimensionsError, InvalidSheetSizeError
 from mixin import HipRoofMixin

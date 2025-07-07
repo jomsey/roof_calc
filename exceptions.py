@@ -9,3 +9,10 @@ class InvalidDimensionsError(RoofError):
 class InvalidSheetSizeError(RoofError):
     """Raised when invalid sheet dimensions are provided."""
     pass
+
+class InvalidPitchError(RoofError):
+    pass
+
+
+class InvalidSheetOverupError(RoofError):
+    pass
