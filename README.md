@@ -38,5 +38,4 @@ Designed for **construction workers**, **engineers**, and **DIY builders**, this
 
 ---
 
-## 🧠 Project Structure
 
